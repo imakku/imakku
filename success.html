@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Olexiy Letushev">
+
+    <title>cake with us</title>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png"/>
+
+
+  </head>
+  <body>
+
+    <header class="hero">
+
+      <nav>
+        
+        <ul class="main-nav" id="dropdownclick">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Offers</a></li>
+          <li><a href="contact.html">Track Order</a></li>
+          <li class="main-nav-right"><a href="#Login">Sign up</a></li>
+          <li class="main-nav-right"><a href="#Login">Login</a></li>
+          <li class="dropdown"><a href="javascript:void(0)" onclick="dropmenu()">&#9776;</a></li>
+        </ul>
+      </nav>
+
+      <section class="intro">
+        <div class="menu">
+            <h1>Success !</h1>
+            <img src="assets/images/dashed-line.png" alt="">
+           
+            <h3>YOUR ORDER:</h3>
+            <h4>XXX</h4>
+            <h4>XXX</h4>
+            <h4>XXX</h4>
+            <h3>HAS BEEN SUCCESSFULLY PLACED</h3>
+             
+        </div>
+      </section>
+
+
+       <footer class="footc">
+            <div class="row">
+                <div class="col-3 mstack">
+                    <ul>
+                        <li><a href="menu.html">Our menu</a></li>  
+                    </ul>
+                </div>
+                <div class="col-3 mstack">
+                    <ul>
+                       <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-3 mstack">
+                    <ul>
+                        <li><a href="#">social</a></li>
+                    </ul>
+                </div>
+                <div class="col-3 mstack">
+                    <ul>
+                        <li><a href="#">social</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+    <script defer src="assets/fontawesome.js"></script>
+    <script>
+            function dropmenu(){
+                var x = document.getElementById("dropdownclick");
+                if(x.className === "main-nav")
+                    x.className += " responsive";
+                else
+                    x.className = "main-nav";
+                   
+            }
+        
+        </script>
+        <script>
+        setTimeout(function () {
+   //Redirect with JavaScript
+   window.location.href= 'index.html';
+}, 5000);
+</script></script>
+
+  </body>
+</html>

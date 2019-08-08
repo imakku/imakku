@@ -1,0 +1,19 @@
+.about{
+	color:white;
+	text-shadow: 20px;
+font-style: Garamond;
+}
+
+.container {
+  
+  background:rgb(105,105,105);
+    
+  padding:0px 50px;
+  float: left;
+  color: white; 
+}
+body{
+  background-image: url("1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}

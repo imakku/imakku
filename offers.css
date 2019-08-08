@@ -1,0 +1,29 @@
+body{
+  background-image: url("1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.offer{
+	color:white;
+	text-shadow: 20px;
+font-style: Garamond;
+}
+.container {
+  
+  background:rgb(105,105,105);
+    
+  padding:0px 50px;
+  float: left;
+  color: white; 
+}
+.coupons{
+	text-align: center;
+    padding:100px 150px;
+  color: red; 
+   border: 4px outset;
+  border-color:white;
+  margin-left:70px; 
+  padding:50px 20px;
+  float: left;
+ 
+}
